@@ -1,0 +1,127 @@
+style.css
+
+body{
+    background-color: #cccacc; 
+}
+
+.navbar{
+    font-size: 15px;
+    max-height: 50px; 
+	background-color: white; 
+}
+
+.navigation .navbar-brand{
+	color: white;
+    font-weight: bold; 
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding: inherit; 
+    background-color: #38ab87; 
+	margin-left: 50px; 
+}
+
+.dropdown-item{
+    color: #30615c; 
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+    background-color:#c7c6ad; 
+}
+
+.nav-link:hover{
+    background-color:#adc7c4;
+}
+
+
+/* Media Queries */
+@media (max-width: 991.98px){
+.navbar-expand-lg{
+	background-color: #38ab87;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: rgb(177, 157, 157);  
+}
+.navbar-brand{
+    padding: 9px; 
+}
+
+button{
+    margin-left: auto; 
+}
+
+button:focus {
+    outline: 1px dotted;
+}
+}
+
+.description-content {
+    color: black;
+	background-color: rgb(231, 231, 231);
+    margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 30px 90px 15px;
+}
+
+.imageNav-content {
+    color: black;
+	background-color: rgb(231, 231, 231);
+    margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 10px 30px 40px;
+}
+.description-header, .imageNav-header {
+    font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+    color: #38ab87;
+	font-size: 26px;
+    padding-top: 15px; 
+	padding-left: 5px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.description-image {
+	float: left;
+	width: 60%;
+	height: 60%;
+}
+
+p{
+	color: #414d4a;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    color: #414d4a;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.active, .imageNav-photo:hover{
+    border-color:#38ab87;
+    border-style: solid; 
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    padding-top: 10px; 
+	width: 100%;
+	left: 0;
+	bottom: 0;
+    background-color: #505251; 
+    border-top-style: solid; 
+    border-top-width: 4px; 
+    border-top-color: #38ab87;
+    color: white; 
+    min-height: 50px; 
+}
